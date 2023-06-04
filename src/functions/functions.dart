@@ -35,6 +35,11 @@ String getName() {
   return a;
 }
 
+// void means that it return no value
+void noReturnCommand() {
+  print('this type of function does not have a return command');
+}
+
 void main() {
   print('Is even ? ${isEven(10)}');
 
@@ -47,4 +52,6 @@ void main() {
     final segundoNome = 'José';
     print('Hello friend ${segundoNome}');
   })();
+
+  noReturnCommand();
 }
