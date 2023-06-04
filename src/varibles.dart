@@ -5,6 +5,11 @@ var idade = 21;
 String nome2 = 'Mateus 2 ';
 int idade2 = 21;
 
+// final
+final a = 1;
+// a = 2;  -- error
+// i can't set another value after first assignment
+
 void main() {
   print('${nome} tem ${idade} anos');
   print('O segundo ${nome2} tem ${idade2}');
