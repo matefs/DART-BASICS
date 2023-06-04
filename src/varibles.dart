@@ -20,4 +20,8 @@ void main() {
   myVar = true;
 
   print('myVar value: ${myVar}');
+
+  // can be null variable, when defined using ? the default value is null
+  int? lineCount;
+  print(lineCount);
 }
